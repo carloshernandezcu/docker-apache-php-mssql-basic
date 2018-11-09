@@ -1,0 +1,8 @@
+version: "3"
+services:
+  apachephp:
+    build:
+      context: ./../
+      dockerfile: ./docker/containers/apache-php/prod/Dockerfile
+    environment:
+      PRODUCTION: "true"

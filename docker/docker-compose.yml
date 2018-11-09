@@ -1,0 +1,7 @@
+version: "3"
+services:
+  apachephp:
+    image: gifitscap-apachephp
+    container_name: gifitscap-apachephp
+    ports:
+    - 80:80
