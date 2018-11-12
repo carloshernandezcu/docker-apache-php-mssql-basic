@@ -12,4 +12,4 @@ echo '<p>env ' . $sEnv . ' ' . rand() . '</p>';
 
 
 # Some code
-echo 'Hello Giffits 2018';
+echo 'Hello Giffits 2018 © All rights reserved.';
