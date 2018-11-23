@@ -4,5 +4,7 @@ services:
     build:
       context: ./../
       dockerfile: ./docker/containers/apache-php/dev/Dockerfile
+    environment:
+      APP_ENV: "dev"
     volumes:
     - ../src:/var/www/html

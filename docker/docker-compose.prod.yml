@@ -5,4 +5,4 @@ services:
       context: ./../
       dockerfile: ./docker/containers/apache-php/prod/Dockerfile
     environment:
-      PRODUCTION: "true"
+      APP_ENV: "dev"
